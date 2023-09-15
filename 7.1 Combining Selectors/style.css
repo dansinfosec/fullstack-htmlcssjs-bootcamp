@@ -1,0 +1,49 @@
+/* Write your code here: */
+
+/* Group selector */
+body {
+    background-color: azure;
+}
+
+
+
+h1, h2 {
+    color: blueviolet;
+    background-color: aliceblue;
+    margin: 0;
+    padding: 10px;
+}
+/* Child selector */
+.box > p {
+    background-color: bisque;
+    color: firebrick;
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    left: 0px;
+    bottom: 100px;
+
+}
+
+.box{
+    background-color: coral;
+    padding: 10px;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    overflow:hidden;
+    justify-content: center;
+}
+/* Descendant selector */
+.box li {
+    color: blue;
+}
+/* Chaining selector */
+li.done {
+    color: seagreen;
+}
+/* Combining selector */
+ul p.done {
+    font-size: 0.5rem;
+}
